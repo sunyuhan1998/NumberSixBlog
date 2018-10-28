@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>签到</title>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:900'>
+<link rel="stylesheet" href="css/style_sign.css">
+
+</head>
+<body>
+<div id="app-cover">
+	<div id="app">
+		<a href="doSign.jsp?moon=1" target="_parent">
+			<div class="mood" id="mood-great">
+				  <div class="face">
+					<div class="eyes-cover">
+					  <div class="eye"></div>
+					  <div class="eye"></div>
+					</div>
+					<div class="mouth"></div>
+				  </div>
+				  <div class="mood-name"><span>非常好</span></div>
+			</div>
+		</a>
+		<a href="doSign.jsp?moon=2" target="_parent">
+		<div class="mood" id="mood-okay">
+			  <div class="face">
+				<div class="eyes-cover">
+				  <div class="eye"></div>
+				  <div class="eye"></div>
+				</div>
+				<div class="mouth"></div>
+			  </div>
+			  <div class="mood-name"><span>一般</span></div>
+		</div>
+		</a>
+		<a href="doSign.jsp?moon=3" target="_parent">
+		<div class="mood" id="mood-bad">
+			  <div class="face">
+				<div class="eyes-cover">
+				  <div class="eye"></div>
+				  <div class="eye"></div>
+				</div>
+				<div class="mouth"></div>
+			  </div>
+			  <div class="mood-name"><span>糟糕</span></div>
+		</div>
+		</a>
+	</div>
+</div>
+<script type="text/javascript">
+	var sign = document.getElementByClass("face");
+	sign.onclick=function(){
+		parent.location.reload();
+	}
+</script>
+<script src='js/sign.js'></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.blog{
+	float: left;
+	width: 100%;
+	background: url(../img/blogBg.png);
+	/* background-color: #BDB76B; */
+}
+.blogTitle{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 55%;
+	height: 70px;
+	text-align: center;
+}
+.blogInfo{
+	margin: 10px auto;
+	width: 89%;
+	height: 30px;
+}
+.aut{
+	float: left;
+	padding-left: 120px;
+	width: 20%;
+	height: 30px;
+}
+.clicks{
+	float: left;
+	padding-left: 20px;
+	width: 20%;
+	height: 30px;
+}
+.time{
+	float: right;
+	padding-right: 70px;
+	width: 35%;
+	height: 30px;
+}
+.cont{
+	margin: 10px auto;
+	width: 85%;
+}
+.comment{
+	margin: 10px auto;
+	width: 85%;
+}
+.comment textarea{
+	font-size: 20px;
+	box-shadow:3px 3px 3px #ccc;
+}
+.com-button { /* 按钮美化 */
+	width: 70px;
+	height: 30px;
+	margin-top: 70px;
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF;
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 16px; /* 字体大小 */
+	float: right;
+	box-shadow:3px 3px 3px #ccc;
+	
+}
+.com-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
+.comment-list{
+	float: left;
+	background-color:white;
+	box-shadow:3px 3px 3px #ccc;
+	margin-left:90px;
+	margin-bottom: 30px;
+	padding-top:20px;
+	padding-left:40px;
+	width: 64%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.comInfo{
+	width: 60%;
+	height: 100px;
+}
+
+
+

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.regbg{
+	background: url(../img/regist_bg.png);
+	width: 100%;
+	height: 550px ;
+	position:relative;
+}
+.reg{
+	background: url(../img/regbg.jpg);
+	border: 1px solid #696;padding: 60px 0;text-align: center; width: 60%;height:250px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+	box-shadow: #666 0px 0px 10px;behavior: url(/PIE.htc);
+	margin: auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left: -350px;
+	margin-top:-200px;
+	background-color: white;
+}
+.login-button { /* 按钮美化 */
+	width: 70px;
+	height: 30px;
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF;
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 16px; /* 字体大小 */
+}
+.login-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
+.end{
+	margin: 0 auto;
+}
+#link{
+	color:  black;
+	text-decoration: none;
+}
+#link:hover{
+	color: red;
+}

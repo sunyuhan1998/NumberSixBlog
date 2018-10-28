@@ -1,0 +1,10 @@
+.allArtBg{
+	margin: 0 auto;
+	background: url(../img/allBlogBg.png);
+	width: 100%
+}
+.allArt{
+	padding-top: 5px;
+	padding-left: 150px;
+	width: 100%;
+}
